@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Poppins&display=swap');
+
+
+.app-container{
+  padding: auto;
+  margin:10px auto 10px auto;
+  min-height: 100vh;
+  min-width: 500px;
+  max-height: fit-content;
+  max-width:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;  
+  flex-direction: column;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+  background-color:#BFDBF7;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#header{
+  height: 40px;
+  width: 300px;
+  border: 2px solid lightcyan;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+
+.addButton {
+  display: block;
+  width: 200px;
+  background-color: transparent;
+  padding: 1rem;
+  color: black;
+  border: 2px solid lightyellow;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: 'Karla', sans-serif;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-left: auto ;
+  margin-right: auto;
+  /* Add any additional styles for the button */
+}
+button:hover {
+  background-color: #FFFEF1;
+  color: #2C5E2E;
+}
+
+button:focus {
+  outline: 0;
+}
+.inputTask{
+  margin-bottom: 20px;
+  height: 40px;
+  width: 250px;
+  border-radius: 8px;
+  text-align: center;
+  background-color:lightskyblue;
+  font-size: 20px;
+}
+
+.itemList{
+  list-style-type: none;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  color:red;
+  font-weight: 1000;
+}
+.task-body{
+    
+    justify-content: space-between;
+    
+}
+.complete,.delete{
+    width: 80px;
+    height: 35px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:cornsilk;
+    font-weight: bold;
+}
+.task-name{
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
